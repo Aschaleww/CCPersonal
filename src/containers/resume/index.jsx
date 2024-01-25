@@ -1,7 +1,7 @@
 // Resume.jsx
 import React from "react";
 import PageHeaderContent from "../pageHeaderContent";
-import { BsInfoCircleFill } from "react-icons/bs";
+// import { BsInfoCircleFill } from "react-icons/bs";
 import "./style.scss";
 import { MdWork } from "react-icons/md";
 import {
@@ -16,7 +16,7 @@ const Resume = () => {
     <div id="resume" className="resume">
       <PageHeaderContent
         headerText="My Resume"
-        icon={<BsInfoCircleFill size={40} />}
+        // icon={<BsInfoCircleFill size={40} />}
       />
 
       <div className="timeline">

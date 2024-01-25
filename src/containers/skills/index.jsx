@@ -1,5 +1,5 @@
 import React from "react";
-import { BsInfoCircleFill } from "react-icons/bs";
+// import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate, AnimateKeyframes } from "react-simple-animate";
 import PageHeaderContent from "../pageHeaderContent";
 import { skillData } from "./utils";
@@ -11,7 +11,7 @@ const Skills = () => {
     <div className=" skills" id="skills">
       <PageHeaderContent
         headerText="Skills"
-        icon={<BsInfoCircleFill size={40} />}
+        // icon={<BsInfoCircleFill size={40} />}
       />
 
       <div className="skills_content">

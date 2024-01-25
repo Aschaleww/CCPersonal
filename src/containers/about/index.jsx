@@ -1,5 +1,5 @@
 import React from "react";
-import { BsInfoCircleFill } from "react-icons/bs";
+// import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
 import PageHeaderContent from "../pageHeaderContent";
 import { DiApple, DiAndroid } from "react-icons/di";
@@ -32,7 +32,7 @@ const About = () => {
     <section id="about" className="about">
       <PageHeaderContent
         headerText="About Me"
-        icon={<BsInfoCircleFill size={40} />}
+        // icon={<BsInfoCircleFill size={40} />}
       />
 
       <div className="about_content">
@@ -77,7 +77,7 @@ const About = () => {
         </div>
 
         <div className="about_content_serviceWrapper">
-          <Animate
+          {/* <Animate
             play
             duration={1.5}
             delay={1}
@@ -87,25 +87,25 @@ const About = () => {
             end={{
               transform: "translatex(0px)",
             }}
-          >
-            <div className="about_content_serviceWrapper_inner">
-              <div>
-                <FaDev size={60} color="var(--yellow-theme-sub-text-color)" />
-              </div>
-              <div>
-                <DiAndroid size={60} color="var(--yellow-theme-main-color)" />
-              </div>
-              <div>
-                <FaDatabase
-                  size={60}
-                  color="var(--yellow-theme-sub-text-color)"
-                />
-              </div>
-              <div>
-                <DiApple size={60} color="var(--yellow-theme-main-color)" />
-              </div>
+          > */}
+          <div className="about_content_serviceWrapper_inner">
+            <div>
+              <FaDev size={60} color="var(--yellow-theme-sub-text-color)" />
             </div>
-          </Animate>
+            <div>
+              <DiAndroid size={60} color="var(--yellow-theme-main-color)" />
+            </div>
+            <div>
+              <FaDatabase
+                size={60}
+                color="var(--yellow-theme-sub-text-color)"
+              />
+            </div>
+            <div>
+              <DiApple size={60} color="var(--yellow-theme-main-color)" />
+            </div>
+          </div>
+          {/* </Animate> */}
         </div>
       </div>
     </section>

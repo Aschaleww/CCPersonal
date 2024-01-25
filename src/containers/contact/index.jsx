@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeaderContent from "../pageHeaderContent";
-import { BsInfoCircleFill } from "react-icons/bs";
+// import { BsInfoCircleFill } from "react-icons/bs";
 import { Animate } from "react-simple-animate";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
@@ -35,7 +35,7 @@ const Contact = () => {
     <div>
       <PageHeaderContent
         headerText="Contact Me"
-        icon={<BsInfoCircleFill size={40} />}
+        // icon={<BsInfoCircleFill size={40} />}
       />
 
       <div className="contact">
