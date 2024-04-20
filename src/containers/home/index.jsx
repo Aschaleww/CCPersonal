@@ -15,7 +15,7 @@ const Home = () => {
       <div className="home_me">
         <h1>
           Hello, I'm Aschalew <br />
-          Full Stack Developer
+          Full Stack Java Developer
         </h1>
       </div>
       <Animate

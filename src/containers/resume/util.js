@@ -5,7 +5,7 @@ export const data = {
       title: "Junior Software Developer",
       subtitle: "Developer",
       description: "WebSite Development and Application Development",
-      Project1: "Labrary Management System",
+      Project1: "TaskForge: Java Task Management System",
       project2: "Student Registration System",
     },
     {
@@ -14,7 +14,7 @@ export const data = {
       subtitle: "Full Stack Developer",
       description: "Java Developer",
       Project1: "Ticket Reservation ",
-      project2: "fleet management",
+      project2: "ChatNest: Multi-user Chat Application in Java",
     },
   ],
   education: [

@@ -49,7 +49,6 @@ const About = () => {
             }}
           >
             <h3>Full Stack Developer</h3>
-            <p>we are software Developer here</p>
             <p>{jobSummary}</p>
           </Animate>
 

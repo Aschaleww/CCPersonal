@@ -11,7 +11,7 @@
       align-items: center;
       &_Title {
         display: inline-block;
-        color: var(--yellow-theme-main-color);
+        color: white;
         font-size: 22px;
         font-weight: 700;
         line-height: 1rem;
@@ -19,7 +19,7 @@
         position: relative;
         text-transform: uppercase;
         padding: 5px, 10px;
-        border-bottom: 2px solid var(--yellow-theme-main-color);
+        border-bottom: 2px solid white;
       }
       &_Title::after,
       &__Title::before {
@@ -27,7 +27,7 @@
         content: "";
         width: 2px;
         height: 2px;
-        background: var(--yellow-theme-main-color);
+        background: white;
         bottom: -1px;
       }
       &_Title::after {
